@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "JSX loader plugin",
   "main": "jsx",
-  "registry": "jspm",
   "scripts": {
     "test": "mocha"
   },
@@ -28,5 +27,11 @@
   },
   "dependencies": {
     "react-tools": "^0.12.1"
+  },
+  "jspm": {
+    "main": "jsx",
+    "dependencies": {
+      "react-tools": "npm:react-tools@^0.12.1"
+    }
   }
 }
