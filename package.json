@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "JSX loader plugin",
   "main": "jsx",
+  "registry": "jspm",
   "scripts": {
     "test": "mocha"
   },
