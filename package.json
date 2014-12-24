@@ -4,7 +4,7 @@
   "description": "JSX loader plugin",
   "main": "jsx",
   "scripts": {
-    "test": "mocha"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,9 @@
   },
   "homepage": "https://github.com/floatdrop/plugin-jsx",
   "devDependencies": {
-    "mocha": "^2.0.1"
-  },
-  "dependencies": {
-    "react-tools": "^0.12.1"
+    "connect": "^3.3.3",
+    "open": "0.0.5",
+    "serve-static": "^1.7.1"
   },
   "jspm": {
     "main": "jsx",
