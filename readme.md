@@ -16,3 +16,12 @@ After that you can include JSX templates in your modules:
 ```js
 var Component = require('component.jsx!');
 ```
+
+## Tests
+
+```bash
+jspm install
+jspm install react
+npm install
+npm test
+```
