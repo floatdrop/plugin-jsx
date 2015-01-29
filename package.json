@@ -34,7 +34,7 @@
       "packages": "jspm_packages"
     },
     "dependencies": {
-      "react-tools": "npm:react-tools@0.12.2"
+      "react-tools": "npm:react-tools@0.13.0-rc2"
     }
   }
 }
