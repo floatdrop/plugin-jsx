@@ -21,7 +21,7 @@ var Component = require('component.jsx!');
 
 ```bash
 jspm install
-jspm install react
+jspm install react@0.13.0-beta.1
 npm install
 npm test
 ```
