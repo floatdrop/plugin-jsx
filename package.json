@@ -1,7 +1,7 @@
 {
-  "name": "plugin-jsx",
+  "name": "system-jsx",
   "version": "0.1.1",
-  "description": "JSX loader plugin",
+  "description": "JSX plugin for SystemJS",
   "main": "jsx",
   "scripts": {
     "test": "node test.js"
@@ -14,6 +14,7 @@
     "jspm",
     "jsx",
     "loader",
+    "systemjs",
     "plugin"
   ],
   "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
