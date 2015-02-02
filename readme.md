@@ -1,4 +1,4 @@
-# plugin-jsx
+# system-jsx
 
 > JSX loader plugin for [jspm](https://jspm.io)
 
