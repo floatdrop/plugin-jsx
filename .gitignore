@@ -2,3 +2,5 @@ node_modules
 coverage
 jspm_packages
 config.js
+sample.js
+sample.js.map

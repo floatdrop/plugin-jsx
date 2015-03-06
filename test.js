@@ -1,5 +1,3 @@
 var assert = require('assert');
-global.System = require('systemjs');
-
-var code = require('./sample.js').toString();
+var code = require('fs').readFileSync('./sample.js');
 assert.ok(/React\.createElement/.test(code));

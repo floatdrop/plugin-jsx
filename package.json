@@ -26,8 +26,7 @@
   },
   "homepage": "https://github.com/floatdrop/plugin-jsx",
   "devDependencies": {
-    "jspm": "^0.14.0",
-    "systemjs": "^0.15.0"
+    "jspm": "^0.14.0"
   },
   "jspm": {
     "directories": {
