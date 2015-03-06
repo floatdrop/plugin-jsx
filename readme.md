@@ -2,7 +2,7 @@
 
 > JSX loader plugin for [jspm](https://jspm.io)
 
-This plugin will translate JSX templates to JS and executes them (like coffee-script or es6).
+This plugin will translate JSX templates to JS.
 
 To use it you should install it with jspm:
 
