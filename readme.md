@@ -1,4 +1,4 @@
-# plugin-jsx
+# plugin-jsx [![Build Status](https://travis-ci.org/floatdrop/plugin-jsx.svg)](https://travis-ci.org/floatdrop/plugin-jsx)
 
 > JSX loader plugin for [jspm](https://jspm.io)
 

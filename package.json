@@ -3,9 +3,9 @@
   "version": "0.1.1",
   "description": "JSX loader plugin",
   "main": "jsx",
-  "scripts": {
-    "test": "node test.js"
-  },
+  "files": [
+    "jsx.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/floatdrop/plugin-jsx.git"
@@ -23,12 +23,14 @@
   },
   "homepage": "https://github.com/floatdrop/plugin-jsx",
   "devDependencies": {
-    "connect": "^3.3.3",
-    "open": "0.0.5",
-    "serve-static": "^1.7.1"
+    "jspm": "^0.14.0",
+    "systemjs": "^0.15.0"
   },
   "jspm": {
-    "main": "jsx",
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
     "dependencies": {
       "react-tools": "npm:react-tools@^0.12.1"
     }
