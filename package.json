@@ -1,6 +1,6 @@
 {
   "name": "plugin-jsx",
-  "version": "0.12.2-1",
+  "version": "1.0.0",
   "description": "JSX loader plugin",
   "main": "jsx",
   "files": [
