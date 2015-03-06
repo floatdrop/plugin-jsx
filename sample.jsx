@@ -1,4 +1,4 @@
-import React from 'react';
+var React = require('react');
 
 var App = React.createClass({
   render: function () {
@@ -6,4 +6,4 @@ var App = React.createClass({
   }
 });
 
-React.render(<App />, document.body);
+module.exports = App;
