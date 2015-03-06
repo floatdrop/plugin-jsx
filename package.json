@@ -6,6 +6,9 @@
   "files": [
     "jsx.js"
   ],
+  "scripts": {
+    "test": "jspm install && jspm bundle sample.jsx! sample.js && node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/floatdrop/plugin-jsx.git"

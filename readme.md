@@ -27,8 +27,6 @@ jspm install jsx@beta
 ### Tests
 
 ```bash
-jspm install
-jspm install react
 npm install
 npm test
 ```
