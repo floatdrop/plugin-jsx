@@ -16,13 +16,15 @@ After that you can include JSX templates in your modules:
 var Component = require('component.jsx!');
 ```
 
-### [React v0.13.0 Beta 1](http://facebook.github.io/react/blog/2015/01/27/react-v0.13.0-beta-1.html)
+### [React v0.13 RC](http://facebook.github.io/react/blog/2015/03/03/react-v0.13-rc2.html)
 
-To use all new hot features from beta version of React you can install `jsx` plugin from `beta` branch like this:
+To use all new hot features from beta version of React you can install `jsx` plugin from `0.13-rc` branch like this:
 
 ```
-jspm install jsx@beta
+jspm install jsx@0.13-rc
 ```
+
+This will install jsx plugin from branch with `es6module` option set to `true`.
 
 ### Tests
 
