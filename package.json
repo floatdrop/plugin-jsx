@@ -30,7 +30,7 @@
   },
   "jspm": {
     "dependencies": {
-      "react-tools": "npm:react-tools@0.12.2"
+      "react-tools": "npm:react-tools@^0.12.2"
     }
   }
 }
